@@ -1,0 +1,36 @@
+{
+  "name": "graphqldemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --silent --collectCoverageFrom='[\"src/**/*.js\"]' --coverage",
+    "testw": "jest --watch",
+    "build": "webpack --config webpack.config.js --progress -p",
+    "start": "babel-node index.js"
+  },
+  "author": "Christian Dreier",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "left-pad": "^1.1.3",
+    "node-fetch": "^1.7.3",
+    "rxjs": "^5.4.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.9.0",
+    "eslint-plugin-classes": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "flow-bin": "^0.57.3",
+    "jest": "^20.0.4",
+    "webpack": "^3.8.1"
+  }
+}

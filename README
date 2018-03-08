@@ -1,0 +1,8 @@
+# graphql demo
+
+this is my attemp of a well structured graphql server, communication with rest APIs
+
+## key ideas
+
+* http requests with rxjs and an inmemory cache
+* schema, queries and resolvers, side by side in one file
